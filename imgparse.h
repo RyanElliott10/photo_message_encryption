@@ -2,7 +2,6 @@
 #define _H_IMGPARSE
 
 #define READBUF 512
-// #define READBUF 1048576
 
 #define FALSE 0
 #define TRUE  1
