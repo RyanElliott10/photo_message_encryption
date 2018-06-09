@@ -14,13 +14,13 @@ This is a photo steganographic encoder, in which the program will accept the nam
   
 ## Instructions
 ### To Compile:
-  '$ make'
+  `$ make`
   
 ### To Encode:
-  '$ ./pencode [ image filename ] [ message ]'
+  `$ ./pencode [ image filename ] [ message ]`
   
 ### To Decode:
-  '$ ./pdecode [ image filename ]'
+  `$ ./pdecode [ image filename ]`
 
 
 
