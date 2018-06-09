@@ -12,14 +12,14 @@ This is a photo steganographic encoder, in which the program will accept the nam
   - .tiff
   - .heif
   
-### Instructions
-#### To Compile:
+## Instructions
+### To Compile:
   `$ make`
   
-#### To Encode:
+### To Encode:
   `$ ./pencode [ image filename ] [ message ]`
   
-#### To Decode:
+### To Decode:
   `$ ./pdecode [ image filename ]`
 
 
