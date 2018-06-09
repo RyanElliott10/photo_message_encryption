@@ -22,6 +22,7 @@ void parse_image(char *fname, char *msg)
 
    memset(buffer, 0, READBUF);
    memset(writebuf, 0, 2);
+   lseek(fdw, 32, SEEK_CUR);     /* To avoid header format collisions, lseek 32 bytes into the file */
 
    while (safe_read(fdr, buffer, READBUF) && cont)  /* Read until it doesn't read any bytes */
    {
