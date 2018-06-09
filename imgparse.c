@@ -61,7 +61,8 @@ void parse_image(char *fname, char *msg)
 /* CURRENT LOCATION
  *
  * Creates new bytes, writes to file. Must now ensure the message is not larger than
- * the picture.
+ * the picture. Also, I need to not mess with the header because it is saying the file is
+ * not longer valid. Find where JPEG images begin storing the rgb values.
  * 
  * Accept input from stdin, allow user to enter " string " to take that in, file input, etc
  * 
