@@ -12,13 +12,13 @@ Accepts all modern image file types (the following have been tested):
   - .tiff
   - .heif
   
-To Compile:
+*To Compile:*
   $ make
   
-To Encode:
+*To Encode:*
   $ ./pencode [ image filename ] [ message ]
   
-To Decode:
+*To Decode:*
   $ ./pdecode [ image filename ]
 
 For more information on the topic, view this video by Numberphile: https://www.youtube.com/watch?v=TWEXCYQKyDc
