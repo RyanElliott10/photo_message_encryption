@@ -45,11 +45,10 @@ void parse_image(char *fname, char *msg)
 
          writebuf[0] = buffer[i];
          safe_write(fdw, writebuf, 1);
+
          i && (i + 1) % 4 == 0 ? msgcount++ : msgcount;   /* If i is multiple of 4 (one byte has been written), inrement char position in msg */
 
          memset(writebuf, 0, 2);
-
-         // printf("%2x%s", buffer[i], (i == (READBUF - 1) || !((i + 1) % 8) ? "\n" : " "));
       }
 
       memset(buffer, 0, READBUF);
