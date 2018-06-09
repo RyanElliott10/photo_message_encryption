@@ -25,7 +25,7 @@ safe.o : safe.c safe.h
 	$(CC) $(CFLAGS) -c safe.c
 
 clean :
-	rm *.o $(MAIN) 
+	rm *.o pencode pdecode
 
 # test:	$(MAIN)
 # 	./httpd
