@@ -11,12 +11,13 @@
 /*
  * SUPPORTED FILE EXTENSIONS (FOLLOWS JPEG STANDARDIZED FORMAT)
  * 
- * .jpg
- * .jpeg
- * .jpe
- * .jif
- * .jfif
- * .jfi
+ * all .jpg and .jpeg variants (.jpe/.jif/.jfif/.jfi)
+ * .bmp
+ * .png
+ * .psd
+ * .gif
+ * .tiff
+ * .heif
  */
 
 int main(int argc, char *argv[])
