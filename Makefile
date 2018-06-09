@@ -26,6 +26,3 @@ safe.o : safe.c safe.h
 
 clean :
 	rm *.o pencode pdecode
-
-# test:	$(MAIN)
-# 	./httpd

@@ -9,6 +9,12 @@
 #include "imgparse.h"
 #include "safe.h"
 
+/* TO BE ADDED
+ *
+ * The first 4 bytes written after the 32 seek will
+ * indicate how many bytes are to be read by the decoder
+ */
+
 void parse_image(char *fname, char *msg)
 {
    int i, fdr, fdw, cont, msglen, msgcount;
