@@ -25,6 +25,6 @@ This is a photo steganographic encoder, in which the program will accept the nam
 For more information on steganographic encoding, view [this video by Numberphile](https://www.youtube.com/watch?v=TWEXCYQKyDc)
 
 ## Current Progress
-[x] Encode
-[ ] Decode
-[ ] stdin/files for message input
+- [x] Encode
+- [ ] Decode
+- [ ] stdin/files for message input
