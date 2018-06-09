@@ -3,7 +3,7 @@ Accepts a JPEG image and message to be encrypted, encrypts the message into the 
 
 This is a photo steganographic encoder, in which the program will accept the name of an image and a message to be encoded. The message will then be entered into the image, reading two bits from each char in the message, and setting those bits as the two least significant bits (lsb's) of each byte in the image.
 
-## Accepts all modern image file types (the following have been tested):
+### Accepts all modern image file types (the following have been tested):
   - all .jpg and .jpeg variants (.jpe/.jif/.jfif/.jfi)
   - .bmp
   - .png
@@ -12,14 +12,14 @@ This is a photo steganographic encoder, in which the program will accept the nam
   - .tiff
   - .heif
   
-## Instructions
-### To Compile:
+### Instructions
+#### To Compile:
   `$ make`
   
-### To Encode:
+#### To Encode:
   `$ ./pencode [ image filename ] [ message ]`
   
-### To Decode:
+#### To Decode:
   `$ ./pdecode [ image filename ]`
 
 
