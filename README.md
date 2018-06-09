@@ -11,5 +11,14 @@ Accepts all modern image file types (the following have been tested):
   - .gif
   - .tiff
   - .heif
+  
+To Compile:
+  $ make
+  
+To Encode:
+  $ ./pencode [ image filename ] [ message ]
+  
+To Decode:
+  $ ./pdecode [ image filename ]
 
 For more information on the topic, view this video by Numberphile: https://www.youtube.com/watch?v=TWEXCYQKyDc
